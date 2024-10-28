@@ -49,6 +49,7 @@ a {
     margin-right: 15px;
     background-color: #92a2ebc7;
     padding: 3px;
+    border: 5px groove #1a084b;
     border-radius: 10px;
     box-shadow: 1px 1px 5px;
 
@@ -59,4 +60,10 @@ a {
     position: relative;
     font-family: Verdana;
     padding: 1em;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+
 }
