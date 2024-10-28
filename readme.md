@@ -1,2 +1,1 @@
-Esto es un readme para explicar, en conceptos resumidos y sencillos, el funcionamiento del código implícito en la
-página a crear.
+Maquetado de una Página WEB en construcción con objetivo de presentarla como proyecto final en un curso Fron-end con JavaScript.
