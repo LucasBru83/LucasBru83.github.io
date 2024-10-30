@@ -8,40 +8,48 @@ Se encuentra en período BETA.
 ------------
 **Table of Contents**
 
-[TOCM]
-
-[TOC]
-
+- [Introducción](#introducción)
+  - [Requisitos de la primer pre-entrega (29/10/2024)](#requisitos-de-la-primer-pre-entrega-29102024)
+      - [HTML](#html)
+      - [Formulario](#formulario)
+      - [CSS](#css)
+      - [Diseño Responsivo con Flexbox y Grid](#diseño-responsivo-con-flexbox-y-grid)
+      - [Contenido multimedia y navegación interna](#contenido-multimedia-y-navegación-interna)
+      - [Host](#host)
+  - [Construido con 🛠️](#construido-con-️)
+  - [Autores ✒️](#autores-️)
+  - [Agradecimientos 🎁](#agradecimientos-)
 
 ------------
 
 
 ## Requisitos de la primer pre-entrega (29/10/2024)
-###HTML
+
+#### HTML
 
 - [x] Estructura semántica: header, nav, main, section, footer.
 - [x] README.md.
 
-####Formulario
+#### Formulario
 - [ ] Utilización de Formspree para el envío de datos.
 
-####CSS
+#### CSS
 
 - [x] **styles.css**.
  - [x] Estilos básicos aplicados a las secciones de header, footer y al nav.
  - [ ] Google Fonts.
  - [x] Propiedades de "background" aplicadas.
  
-####Diseño Responsivo con Flexbox y Grid
+#### Diseño Responsivo con Flexbox y Grid
 - [ ] Sección "productos" maquetada con cards de forma responsiva utilizando** Flexbox**.
 - [ ] Sección "Reseñas" organizada con **Grid** de forma lógica y estética.
 - [ ] Sección "Contacto" mediante el uso de **Media Queries** para diferentes pantallas.
 
-####Contenido multimedia y navegación interna
+#### Contenido multimedia y navegación interna
 - [x] Archivos multimedia (imagenes, video o iframe).
 - [x] Lista desordenada que simule una **navegación interna** por las secciones.
 
-####Host
+#### Host
 - [ ] Subido a un host (Netify o Github Pages) con una URL para visualizar el sitio.
 
 ------------
