@@ -6,7 +6,7 @@ _El proyecto consiste en la página oficial de un equipo (de counter strike) con
 Se encuentra en período BETA.
 
 ------------
-**Table of Contents**
+**Índice**
 
 - [Introducción](#introducción)
   - [Requisitos de la primer pre-entrega (29/10/2024)](#requisitos-de-la-primer-pre-entrega-29102024)
@@ -62,8 +62,6 @@ _Herramientas utilizadas hasta la última versión (beta)_
 * [GIT] Versionado.
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Lucas Ezequiel Brunacci** - *Desarrollo y Documentación* - [GitHub](https://github.com/LucasBru83)
 
