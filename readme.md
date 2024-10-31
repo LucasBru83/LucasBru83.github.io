@@ -6,7 +6,7 @@ _El proyecto consiste en la página oficial de un equipo (de counter strike) con
 Se encuentra en período BETA.
 
 ------------
-**Table of Contents**
+**Índice**
 
 - [Introducción](#introducción)
   - [Requisitos de la primer pre-entrega (29/10/2024)](#requisitos-de-la-primer-pre-entrega-29102024)
@@ -31,17 +31,17 @@ Se encuentra en período BETA.
 - [x] README.md.
 
 #### Formulario
-- [ ] Utilización de Formspree para el envío de datos.
+- [x] Utilización de Formspree para el envío de datos.
 
 #### CSS
 
 - [x] **styles.css**.
  - [x] Estilos básicos aplicados a las secciones de header, footer y al nav.
- - [ ] Google Fonts.
+ - [x] Google Fonts.
  - [x] Propiedades de "background" aplicadas.
  
 #### Diseño Responsivo con Flexbox y Grid
-- [ ] Sección "productos" maquetada con cards de forma responsiva utilizando** Flexbox**.
+- [ ] Sección "productos" maquetada con cards de forma responsiva utilizando **Flexbox**.
 - [ ] Sección "Reseñas" organizada con **Grid** de forma lógica y estética.
 - [ ] Sección "Contacto" mediante el uso de **Media Queries** para diferentes pantallas.
 
@@ -63,11 +63,11 @@ _Herramientas utilizadas hasta la última versión (beta)_
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
 * **Lucas Ezequiel Brunacci** - *Desarrollo y Documentación* - [GitHub](https://github.com/LucasBru83)
 
 ## Agradecimientos 🎁
 
 A partir de los cursos brindados por TalentoTech (Antes Codo a Codo) voy formando mi experiencia a partir de diversos proyectos como el mencionado.
+Talento Tech es un programa de formación que busca preparar a personas para el mercado laboral tecnológico: Desarrollando habilidades digitales avanzadas, Mejorando habilidades blandas, Aprendiendo inglés, Desarrollando proyectos, etc..
+El programa se lleva a cabo a través de bootcamps especializados, que pueden ser presenciales como virtuales (mi caso).
 

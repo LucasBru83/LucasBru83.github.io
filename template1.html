@@ -6,38 +6,59 @@
     <title>Postulaciones</title>
     <link rel="stylesheet" href="/static/style.css">
     <link rel="icon" href="/static/Imagenes/logozr.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__h1">Zero Rains</h1>
-        <a id="href_logo" href="/index.html"><img class="logo_zr" src="/static/Imagenes/logozr.png" alt="logo_zr" width="100" height="100"></a>
-    </header>
-    <nav class="navbar">
-        <ol class="navbar__ol"> <!-- Lista ordenada ol *Desordenada ul* // PRACTICA PARA DESP: CONVERTIR EL NAV EN UNA TABLA --> 
-            <li class="navbar__ol_li"><a id="href_index" href="/index.html">Inicio</a></li>
-            <li class="navbar__ol_li"><a id="href_template1" href="/template1.html">Postulaciones</a></li>
-            <li class="navbar__ol_li"><a id="href_template2" href="/template2.html">Miembros</a></li>
-        </ol> 
-    </nav>
-    <main>
-        <section>
-            <form class="formulario" action="/form.txt" method="post">
-                <label for="nombre">Nombre</label>
-                <input type="text" id="form__nombre" name="nombre" required>
-
-                <label for="email">Correo</label>
-                <input type="email" id="form__email" name="email" required>
-
-                <label for="mensaje">¿Por qué queres entrar al team?</label>
-                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
-
-                <label for="email">Número de celular</label>
-                <input type="tel" id="form__email" name="email" required>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-
+    <div class="contenedor__total">
+        <header class="header">
+            <h1 class="header__h1">Zero Rains</h1>
+            <a id="href_logo" href="/index.html"><img class="logo_zr" src="/static/Imagenes/logozr.png" alt="logo_zr" width="100" height="100"></a>
+        </header>
+        <nav class="navbar">
+            <ol class="navbar__ol"> <!-- Lista ordenada ol *Desordenada ul* // PRACTICA PARA DESP: CONVERTIR EL NAV EN UNA TABLA --> 
+                <li class="navbar__ol_li"><a id="href_index" href="/index.html">Inicio</a></li>
+                <li class="navbar__ol_li"><a id="href_template1" href="/template1.html">Postulaciones</a></li>
+                <li class="navbar__ol_li"><a id="href_template2" href="/template2.html">Miembros</a></li>
+            </ol> 
+        </nav>
+        <main>
+            <section id="section__form">
+                <div id="label__form">
+                    <p id="div__p__form">¿Querés ingresar al equipo? ¡Envianos tus datos!</p>
+                </div>
+    
+                <form id="postulaciones__form" action="https://formspree.io/f/myzyezkl" method="POST">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="form__nombre" name="nombre" required>
+    
+                    <label for="email">Correo</label>
+                    <input type="email" id="form__email" name="email" required>
+    
+                    <label for="mensaje">¿Por qué queres entrar al equipo?</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+    
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+        </main>
+    
+        <footer class="footer">
+            <div id="footer__contacto">
+                 <i class="fa-solid fa-envelope" id="icon__mail"> Zerorains2020@gmail.com</i>
+    
+            </div>
+    
+            <div id="footer__youtube">
+                <i class="fa-solid fa-globe">
+                    <a id="href__footer__youtube" href="https://www.youtube.com/@ZERORAlNS/videos" target="_blank">YOUTUBE</a>
+                </i>
+            </div>
+    
+        </footer>
+    </div>
+    
 </body>
 </html>

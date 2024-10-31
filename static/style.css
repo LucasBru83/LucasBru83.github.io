@@ -1,5 +1,5 @@
 h1 {
-    font-family: Trebuchet MS;
+    font-family: "DM Serif Text", serif; /* Estilo de Google Fonts */
 }
 
 a {
@@ -8,6 +8,11 @@ a {
     font-family: Cambria;
 }
 
+.contenedor__total{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto auto 1fr auto; /* header nav main footer*/
+}
 
 .header{
     background-image: url(/static/Imagenes/velocidad22.jpg);
@@ -36,7 +41,7 @@ a {
     margin: 0 auto;
     padding: 0;
     font-size: 20px;
-    display: flex;
+    width: 100%;
 }
 
 .navbar__ol{
@@ -54,16 +59,68 @@ a {
     box-shadow: 1px 1px 5px;
 
 }
-
-.divardo{
-    background-color: bisque;
-    position: relative;
-    font-family: Verdana;
-    padding: 1em;
+#label__form{
+    text-align: center;
+    font-family: "DM Serif Text", serif; /* Estilo de Google Fonts */
+    font-size: 1vw;
+    font-weight: 300;
 }
-
-.formulario{
+#section__form{
     display: flex;
     flex-direction: column;
-
+    background-color: #6f83e8;
+    margin: 1vw 25vw;
+    padding: 10px;
 }
+
+#div__p__form{
+    display: inline-flex;
+    background-color: #e9a1d6;
+    padding: 5px;
+    margin: 1vw;
+    border: #030303 groove;
+}
+
+#postulaciones__form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1vw 5vw;
+    background-color: #baa4f4;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #b23de1;
+    width: 100%;
+    border: #030303 solid;
+}
+
+#footer__youtube{
+    display: inline-flex;
+    background-color: #5b2fd6;
+    padding: 1vw;
+    border: #030303 solid 1px;
+    margin: 1vw;
+}
+
+#footer__contacto{
+    display: inline-flex;
+    background-color: #5b2fd6;
+    padding: 1vw;
+    border: #030303 solid 1px;
+    margin: 1vw;
+    
+}
+#footer__copyright{
+    display: inline-flex;
+    background-color: #5b2fd6;
+    padding: 1vw;
+    border: #030303 solid 1px;
+    margin: 1vw;
+}
+
+
