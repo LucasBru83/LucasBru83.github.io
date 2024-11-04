@@ -41,7 +41,7 @@ Se encuentra en período BETA.
  - [x] Propiedades de "background" aplicadas.
  
 #### Diseño Responsivo con Flexbox y Grid
-- [ ] Sección "productos" maquetada con cards de forma responsiva utilizando **Flexbox**.
+- [x] Sección "Videos del canal" maquetada con cards de forma responsiva utilizando **Flexbox**.
 - [ ] Sección "Reseñas" organizada con **Grid** de forma lógica y estética.
 - [ ] Sección "Contacto" mediante el uso de **Media Queries** para diferentes pantallas.
 

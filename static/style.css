@@ -42,6 +42,7 @@ a {
     padding: 0;
     font-size: 20px;
     width: 100%;
+    border: #030303 solid;
 }
 
 .navbar__ol{
@@ -59,6 +60,39 @@ a {
     box-shadow: 1px 1px 5px;
 
 }
+
+
+#main__section_multimedia{
+    display: inline-flex;
+    background-image: url(/static/Imagenes/bannercards.jpg);
+    width: 100%;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#main__div{
+
+    align-content: center;
+    background-color: #5b2fd6;
+    padding: 10px;
+}
+#main__div__p__videos{
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+}
+
+.main__card{
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #992fd6;
+    padding: 4px 4px 0px 4px;
+}
+
 #label__form{
     text-align: center;
     font-family: "DM Serif Text", serif; /* Estilo de Google Fonts */
